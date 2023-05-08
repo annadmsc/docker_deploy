@@ -1,3 +1,3 @@
-FROM: openjdk
-WORKDIR: target
-ADD: 
+FROM openjdk
+WORKDIR target
+ADD target/ . . 
